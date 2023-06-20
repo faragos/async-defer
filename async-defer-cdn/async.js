@@ -1,1 +1,1 @@
-h('ASYNC', 'red');
+render('ASYNC', 'red');

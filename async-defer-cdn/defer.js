@@ -1,1 +1,1 @@
-h('DEFER', 'green');
+render('DEFER', 'green');

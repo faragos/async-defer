@@ -1,1 +1,1 @@
-h('DEFAULT', 'blue');
+render('DEFAULT', 'blue');

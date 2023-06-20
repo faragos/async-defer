@@ -55,3 +55,8 @@ npm run start
 ```
 
 Now you can see.
+
+
+# Credits
+Initial implementation: 
+https://github.com/kooljay82/async-defer
