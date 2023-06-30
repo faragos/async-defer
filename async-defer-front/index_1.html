@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASYNC DEFER TESTBED</title>
+  <script>
+    function render(type, color) {
+      console.log(type, new Date().getTime());
+      const TARGET = document.createElement("div");
+      TARGET.style.width = "15vw";
+      TARGET.style.height = "20px";
+      TARGET.style.background = color;
+      document.body.appendChild(TARGET);
+    }
+  </script>
+  <!-- blue -->
+  <script src="https://cdn.rawgit.com/faragos/async-defer/main/async-defer-cdn/default.js"></script>
+
+  <!-- red -->
+  <script src="https://cdn.rawgit.com/faragos/async-defer/main/async-defer-cdn/async.js" async></script>
+
+  <!-- green -->
+  <script src="https://cdn.rawgit.com/faragos/async-defer/main/async-defer-cdn/defer.js" defer></script>
+
+  <!-- lightgreen -->
+  <script src="https://cdn.rawgit.com/faragos/async-defer/main/async-defer-cdn/defer2.js" defer></script>
+
+  <!-- violet -->
+  <script src="https://cdn.rawgit.com/faragos/async-defer/main/async-defer-cdn/module.js" type="module"></script>
+</head>
+<body>
+</body>
+</html>
